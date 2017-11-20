@@ -15,3 +15,8 @@ The Jolly Roger is hugely recognized to mean "danger" worldwide. The skull and c
 
 
 https://vignette.wikia.nocookie.net/onepiece/images/8/87/Straw_Hat_Pirates%27_Jolly_Roger.png/revision/latest?cb=20130314063139
+
+## Concepts Used
+
+1. Pug framework for HTML
+2. SCSS framework for CSS

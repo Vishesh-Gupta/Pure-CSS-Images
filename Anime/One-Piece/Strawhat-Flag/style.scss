@@ -1,0 +1,118 @@
+//CSS Variables
+//Colors:
+$black: #000000;
+$white: #ffffff;
+$amber-darken: #ffb300;
+$red: #ff0000;
+//Shapes:
+$circle: 50%;
+$ellipse: ellipse(50% 9% at 50% 50%);
+$trapezoid: polygon(11% 0, 94% 0, 100% 100%, 0% 100%);
+
+//CSS Code
+body {
+  background: $black;
+  z-index: 0;
+}
+.box {
+  position: relative;
+  margin: auto;
+  margin-top: 7%;
+  width: 600px;
+  height: 420px;
+  background: $black;
+  border: solid 3px $white;
+}
+.top-left {
+  position: absolute;
+  background: $white;
+  top: 1%;
+  left: 1%;
+  height: 1.5%;
+  width: 1%;
+  border-radius: $circle;
+}
+.top-right {
+  position: absolute;
+  background: $white;
+  top: 1%;
+  right: 1%;
+  height: 1.5%;
+  width: 1%;
+  border-radius: $circle;
+}
+.bottom-left {
+  position: absolute;
+  background: $white;
+  bottom: 1%;
+  left: 1%;
+  height: 1.5%;
+  width: 1%;
+  border-radius: $circle;
+}
+.bottom-right {
+  position: absolute;
+  background: $white;
+  bottom: 1%;
+  right: 1%;
+  height: 1.5%;
+  width: 1%;
+  border-radius: $circle;
+}
+
+
+
+.bone-left{
+  position: absolute;
+  top: 17.5%;
+  left: 49.125%;
+  width: 1.75%;
+  height: 65%;
+  background: $white;
+  transform: rotate(135deg);
+}
+
+.bone-right{
+  position: absolute;
+  top: 17.5%;
+  left: 49.125%;
+  width: 1.75%;
+  height: 65%;
+  background: $white;
+  transform: rotate(45deg);
+}
+
+.hat-top{
+  position: absolute;
+  top: 32.5%;
+  left: 38.75%;
+  width: 20%;
+  height: 12.5%;
+  border-top-left-radius: 100px;
+  border-top-right-radius: 100px;
+  background: $amber-darken;
+}
+
+.hat-red-line{
+  position: absolute;
+  top: 40.5%;
+  left: 40.5%;
+  width: 15%;
+  height: 10%;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  background: $red;
+}
+
+.hat-base{
+  position: absolute;
+  top: 24.%;
+  left: 47.5%;
+  width: 2%;
+  height: 45%;
+  border-radius: 50px;
+  background: $amber-darken;
+  transform: rotate(90deg);
+}
+
+
